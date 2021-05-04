@@ -16,7 +16,9 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    buildFeatures{
+        dataBinding true
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -42,4 +44,9 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //live data
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    //recycler view
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
 }
