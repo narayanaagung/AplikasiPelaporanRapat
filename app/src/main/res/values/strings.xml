@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Aplikasi Pelaporan Rapat (APARAT)</string>
-    <string name="Login">Login</string>
+    <string name="login">Login</string>
     <string name="nip">NIP</string>
+    <string name="laporanrapat">Pelaporan Rapat</string>
+    <string name="rencanakegiatan">Pelaporan Rencana Kegiatan</string>
+    <string name="pemkab">Pemerintah Kabupaten Tabanan</string>
 </resources>
